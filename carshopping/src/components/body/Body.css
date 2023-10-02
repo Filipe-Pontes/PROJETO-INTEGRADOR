@@ -1,0 +1,75 @@
+.texto {/*Espaçamento dos textos*/
+    padding: 20px;
+}
+
+#borda-texto {/*efeito de vidro na borda do conteudo*/
+    backdrop-filter: blur(5px);
+    border-radius: 10px;
+    border: 1px solid #18929D;
+    padding: 50px;
+    margin: 30px 30px 40px 30px;
+}
+
+.texto .titulo {/*aumento da fonte e alteração da cor do titulo*/
+    color: #fff;
+    font-size: 60px;
+    font-weight: 600px;
+    text-align: center;
+}
+
+.texto .sub_titulo {/*aumento da fonte e alteração da cor do sub-titulo*/
+    color: #fff;
+    font-size: 40px;
+    font-weight: 600;
+    text-align: center;
+}
+
+.texto .botoes {/*espaçamento dos botões*/
+    margin-top: 30px;
+    text-align: center;
+}
+
+.texto .botoes button {/*adcionando estilo nos botões*/
+    height: 55px;
+    width: 170px;
+    border-radius: 5px;
+    border: 0;
+    margin: 0 10px;
+    font-size: 20px;
+    font-weight: 500;
+    padding: 0 10px;
+    cursor: pointer;
+    outline: none;
+    transition: 0.3s;
+}
+
+.texto .botoes button.n-overlay {/*retirando o fundo do botão de saiba mais*/
+    color: white;
+    background: none;
+    border: 2px solid white;
+}
+
+.texto .botoes button.n-overlay:hover {/*animação do botão saiba mais*/
+    color: black;
+    background-color: white;
+}
+
+.texto .botoes button.overlay {/*definindo animação do notão de login*/
+    background: white;
+    color: black;
+    animation: vibrar 0.5s ease-in-out infinite both;
+}
+
+@keyframes vibrar {/*animação de vibrar*/
+    0% {
+        transform: scale(1);
+    }
+
+    50% {
+        transform: scale(1.1);
+    }
+
+    100% {
+        transform: scale(1);
+    }
+}

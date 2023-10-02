@@ -1,0 +1,7 @@
+body{
+  height: 100vh;/*altura 100% da tela*/
+  background-image: url('./assets/img/background.jpg');/*imagem de fundo*/
+  background-repeat: no-repeat;/*não repetir imagem*/
+  background-position: center;/*deixar a imagem no centro da tela*/
+  background-size: cover;/*preencher a tela*/
+}

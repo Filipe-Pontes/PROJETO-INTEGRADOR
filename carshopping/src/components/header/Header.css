@@ -1,0 +1,41 @@
+.navHeader {/*barra azul da navbar e rodapé*/
+    background-color: #18929D;
+    padding: 1%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .logo-image { /*logotipo do site*/
+    margin-left: 60px;
+    width: 24%;
+    scale: 2;
+  }
+  
+  .navHeader ul { /*navbar superior*/
+    width: 96vw;
+    display: flex;
+    align-items: center;
+    list-style: none;
+    margin-right: 2%;
+  }
+  
+  .navHeader li a {/*navbar superior*/
+    text-decoration: none;
+    color: #fff;
+    font-size: 18px;
+    font-weight: 500;
+    padding: 5px 20px;
+    border-radius: 5px;
+    transition: 0.3s;
+  }
+
+  .navHeader li{
+    text-align: center;
+    width: 120px;
+  }
+  
+  .navHeader li a:hover {/*animação da navbar superior*/
+    background-color: white;
+    color: black;
+  }
