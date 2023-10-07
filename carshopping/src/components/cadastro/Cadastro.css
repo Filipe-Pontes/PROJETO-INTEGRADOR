@@ -1,0 +1,93 @@
+*.login-container{
+    border: 1px #18929D solid;
+    border-radius: 8px;
+    backdrop-filter: blur(5px);
+    justify-items: center;
+    text-align: center;
+    width: 500px;
+    margin-left: 38%;
+    margin-top: 2%;
+}
+
+.login-container h1{ /*colocando o nome cadastro na cor branca*/
+    color: #fff;
+    font-size: 40px;
+    margin-bottom: 50px;
+}
+
+form {/*colocando os nomes dos forms em branco e espaçando-os */
+    color: #fff;
+    font-family: Arial, sans-serif;
+    margin: 0 auto;
+    width: 300px;
+}
+
+label {/*colocando os nomes em cima da barra de digitação*/
+    display: block;
+    font-size: 1.2em;
+}
+
+input[type="text"]{/*alterando tamanho e espaçamento da barra de digitação*/
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    box-sizing: border-box;
+    border-radius: 6px;
+}
+
+input[type="number"]{/*alterando tamanho e espaçamento da barra de digitação*/
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    box-sizing: border-box;
+    border-radius: 6px;
+}
+
+#birthdate{/*alterando tamanho e espaçamento da barra de digitação*/
+    border-radius: 6px;
+    padding: 3.3%;
+    width: 93%;
+}
+
+input[type="email"]{/*alterando tamanho e espaçamento da barra de digitação*/
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    box-sizing: border-box;
+    border-radius: 6px;
+}
+
+input[type="password"]{/*alterando tamanho e espaçamento da barra de digitação*/
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    box-sizing: border-box;
+    border-radius: 6px;
+}
+
+#genero{/*alterando tamanho e espaçamento da barra de digitação*/
+    border-radius: 6px;
+    padding: 3%;
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+input[type="submit"] {/*estilizando o botão de cadastrar*/
+    background-color: #4CAF50;
+    border: none;
+    border-radius: 6px;
+    color: white;
+    cursor: pointer;
+    font-size: 1.2em;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    padding: 12px 20px;
+}
+
+input[type="submit"]:hover {/*animação do botão cadastrar*/
+    background-color: #36853a;
+}
+
+.titulo-cad{/*colocando nomes a esquerda*/
+    text-align: left;
+}

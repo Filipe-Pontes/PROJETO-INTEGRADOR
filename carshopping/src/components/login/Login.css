@@ -1,0 +1,77 @@
+.banner{
+    width: 430px;
+    margin: auto;
+    margin-top: 80px;
+}
+
+.login-container{/*aumento da fonte, espaçamentos e borda de vidro*/
+    font-size: 1.2em;
+    color: #fff;
+    backdrop-filter: blur(5px);
+    border: 1px solid #18929D;
+    border-radius: 10px;
+    padding: 20px;
+    max-width: 400px;
+    text-align: center;
+}
+
+.login-container p{/*afastamento do botão de entrar*/
+    margin-top: 10px;
+}
+
+.login-container a{/*retirada da linha de baixo do botão de cadastre-se*/
+    color: #fff;
+    text-decoration: none;
+}
+
+.login-container a:hover{/*colocando animação no nome cadastre-se*/
+    color: #18929D;
+    transition: 3ms;
+}
+
+.login-container h1{/*aumento da margem do nome login*/
+    font-size: 40px;
+    margin-bottom: 20px;
+}
+
+.login-container form{/*deixando os nomes em cima da barra de digitação*/
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.login-container label {/*colocanodo os nomes no canto esquerdo*/
+    text-align: left;
+    width: 100%;
+}
+
+.login-container input[type="email"]{/*aumentando o tamanho da barra de digitação e deixando borda arredondada*/
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    box-sizing: border-box;
+    border-radius: 6px;
+}
+
+.login-container input[type="password"]{/*aumentando o tamanho da barra de digitação e deixando borda arredondada*/
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    box-sizing: border-box;
+    border-radius: 6px;
+}
+
+.login-container input[type="submit"] {/*estilizando o botão de entrar*/
+    width: 50%;
+    padding: 10px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 6px;
+}
+
+.login-container input[type="submit"]:hover {/*colocando animação de botão de entrar*/
+    background-color: #337735;
+    transition: 3ms;
+}

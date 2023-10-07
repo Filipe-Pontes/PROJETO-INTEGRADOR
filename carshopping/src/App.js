@@ -3,14 +3,14 @@ import logo from './assets/img/logotipo.png';
 import background from './assets/img/background.jpg';
 import Header from './components/header/Header';
 import Footer from './components/footer/Footer';
-import Body from './components/body/Body';
+import Cadastro from './components/cadastro/Cadastro';
 
 function App() {
   return (
     <>
       <Header/>
+      <Cadastro/>
       <Footer/>
-      <Body/>
     </>
   )
 }
